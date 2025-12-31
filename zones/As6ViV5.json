@@ -37,6 +37,14 @@
     {
       "objectId": "unmatched",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "earnings_by_education_preparedsx",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_earnings_by_education_preparedsx",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
