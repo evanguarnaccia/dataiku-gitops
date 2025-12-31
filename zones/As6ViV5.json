@@ -55,10 +55,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_earnings_by_education_preparedfee",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "earnings_by_education_preparedjui",
       "objectType": "DATASET"
     },
