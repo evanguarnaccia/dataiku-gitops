@@ -1,5 +1,6 @@
 {
   "name": "job_postings",
+  "error": null,
   "endpoints": [
     {
       "modelRef": "KI6bmCmP",
@@ -158,21 +159,30 @@
       "auditPostEnrichData": false,
       "id": "predict_fake_job",
       "type": "STD_PREDICTION",
-      "tags": []
+      "tags": [],
+      "openAPI": null
     }
   ],
   "authMethod": "PUBLIC",
   "authRealm": {
+    "id": null,
     "queryKeys": []
   },
   "oauth2Config": {
+    "issuer": null,
     "keysFormat": "JWKS_URI",
+    "jwksUri": null,
     "jwkUriConnectTimeout": 500,
     "jwkUriReadTimeout": 500,
     "jwkUriSizeLimit": 51200,
     "disableSSLCertificatesCheck": false,
+    "jwksSet": null,
+    "audience": null,
+    "scope": null,
     "scopeClaimFormat": "STRING",
-    "scopeClaimKey": "scope"
+    "scopeClaimKey": "scope",
+    "clientIdClaimKey": null,
+    "jwkSetParsed": null
   },
   "deploymentMonitoring": [],
   "typeBadges": {
@@ -180,6 +190,8 @@
       "predict_fake_job"
     ]
   },
+  "releaseNotes": null,
+  "versionTag": null,
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -188,6 +200,8 @@
     "lastModifiedOn": 1690315545534,
     "extendedProperties": {}
   },
+  "description": null,
+  "shortDesc": null,
   "tags": [],
   "customFields": {},
   "checklists": {
