@@ -49,10 +49,6 @@
     {
       "objectId": "earnings_by_education_preparedbhj",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_earnings_by_education_preparedbhj",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
