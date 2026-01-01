@@ -1,0 +1,31 @@
+{
+  "type": "scenario_run_button",
+  "params": {
+    "scenarioSmartId": "SCOREDATA"
+  },
+  "owner": "sean.angiolillo@dataiku.com",
+  "listed": false,
+  "name": "Run scenario Score Data",
+  "dashboardCreationId": "BFRpDWR",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean.angiolillo@dataiku.com"
+    },
+    "lastModifiedOn": 1690315178715,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean.angiolillo@dataiku.com"
+    },
+    "lastModifiedOn": 1690315178715,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

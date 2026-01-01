@@ -1,0 +1,31 @@
+{
+  "type": "scenario_run_button",
+  "params": {
+    "scenarioSmartId": "DATAMONITORING"
+  },
+  "owner": "sean.angiolillo@dataiku.com",
+  "listed": false,
+  "name": "Run scenario Data Monitoring",
+  "dashboardCreationId": "BFRpDWR",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean.angiolillo@dataiku.com"
+    },
+    "lastModifiedOn": 1689624150860,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean.angiolillo@dataiku.com"
+    },
+    "lastModifiedOn": 1689624150860,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

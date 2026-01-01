@@ -1,0 +1,196 @@
+{
+  "name": "job_postings",
+  "endpoints": [
+    {
+      "modelRef": "KI6bmCmP",
+      "useJava": true,
+      "computePropensity": true,
+      "outputExplanations": false,
+      "individualExplanationParams": {
+        "method": "ICE",
+        "nbExplanations": 3,
+        "drawInScoredSet": false,
+        "subChunkSize": 5000,
+        "shapleyBackgroundSize": 100
+      },
+      "mlFlowOutputStyle": "PARSED",
+      "testQueries": [
+        {
+          "name": "test #1",
+          "q": {
+            "features": {
+              "job_id": 4,
+              "title": "Account Executive - Washington DC",
+              "location": "US, DC, Washington",
+              "country": "US",
+              "state": "DC",
+              "city": "Washington",
+              "department": "Sales",
+              "company_profile": "our passion for improving quality of life through geography is at the heart of everything we do esri s geographic information system gis technology inspires and enables governments universities and businesses worldwide to save money lives and our environment through a deeper understanding of the changing world around them carefully managed growth and zero debt give esri stability that is uncommon in today s volatile business world privately held we offer exceptional benefits competitive salaries 401 k and profit sharing programs opportunities for personal and professional growth and much more",
+              "len_company_profile": 599,
+              "description": "the company esri environmental systems research instituteour passion for improving quality of life through geography is at the heart of everything we do esri s geographic information system gis technology inspires and enables governments universities and businesses worldwide to save money lives and our environment through a deeper understanding of the changing world around them carefully managed growth and zero debt give esri stability that is uncommon in today s volatile business world privately held we offer exceptional benefits competitive salaries 401 k and profit sharing programs opportunities for personal and professional growth and much more the opportunity account executiveas a member of the sales division you will work collaboratively with an account team in order to sell and promote adoption of esri s arcgis platform within an organization as part of an account team you will be responsible for facilitating the development and execution of a set of strategies for a defined portfolio of accounts when executing these strategies you will utilize your experience in enterprise sales to help customers leverage geospatial information and technology to achieve their business goals specifically prospect and develop opportunities to partner with key stakeholders to envision develop and implement a location strategy for their organizationclearly articulate the strength and value proposition of the arcgis platformdevelop and maintain a healthy pipeline of opportunities for business growthdemonstrate a thoughtful understanding of insightful industry knowledge and how gis applies to initiatives trends and triggersunderstand the key business drivers within an organization and identify key business stakeholdersunderstand your customers budgeting and acquisition processessuccessfully execute the account management process including account prioritization account resourcing and account planningsuccessfully execute the sales process for all opportunitiesleverage and lead an account team consisting of sales and other cross divisional resources to define and execute an account strategyeffectively utilize and leverage the crm to manage opportunities and drive the buying processpursue professional and personal development to ensure competitive knowledge of the real estate industryleverage social media to successfully prospect and build a professional networkparticipate in trade shows workshops and seminars as required support visual story telling through effective whiteboard sessionsbe resourceful and takes initiative to resolve issues",
+              "len_description": 2567,
+              "requirements": "education bachelor s or master s in gis business administration or a related field or equivalent work experience depending on position levelexperience 5 years of enterprise sales experience providing platform solutions to businessesdemonstrated experience in managing the sales cycle including prospecting proposing and closingability to adapt to new technology trends and translate them into solutions that address customer needsdemonstrated experience with strong partnerships and advocacy with customersexcellent presentation white boarding and negotiation skills including good listening probing and qualification abilitiesexperience executing insight selling methodologiesdemonstrated understanding and mitigation of competitive threatsexcellent written and verbal communication and interpersonal skillsability to manage and prioritize your activitiesdemonstrated experience to lead executive engagements to provide services and sell to the real estate industryknowledge of the real estate industry fiscal year budgeting and procurement cyclehighly motivated team player with a mature positive attitude and passion to meet the challenges and opportunities of a businessability to travel domestically and or internationally up to 50 general knowledge of spatial analysis and problem solvingresults oriented ability to write and craft smart attainable realistic time driven goals with clear lead indicators",
+              "benefits": "our culture is anything but corporate we have a collaborative creative environment phone directories organized by first name a relaxed dress code and open door policies a place to thrivepassionate people who strive to make a differencecasual dress codeflexible work schedulessupport for continuing educationcollege like campusa network of buildings amid lush landscaping and numerous outdoor patio areason site cafe including a starbucks coffee bar and lounge areafitness center available 24 7comprehensive reference library and gis bibliographystate of the art conference center to host staff and guest speakers green initiativessolar rooftop panels reduce carbon emissionselectric vehicles provide on campus transportationhundreds of trees reduce the cost of cooling buildings",
+              "telecommuting": 0,
+              "has_company_logo": 1,
+              "has_questions": 0,
+              "employment_type": "Full-time",
+              "required_experience": "Mid-Senior level",
+              "required_education": "Bachelor\u0027s Degree",
+              "industry": "Computer Software",
+              "function": "Sales",
+              "fraudulent": 0,
+              "education_level": "Bachelor\u0027s Degree",
+              "median_weekly_earnings_usd": 1334
+            }
+          }
+        },
+        {
+          "name": "test #2",
+          "q": {
+            "features": {
+              "job_id": 5,
+              "title": "Bill Review Manager",
+              "location": "US, FL, Fort Worth",
+              "country": "US",
+              "state": "FL",
+              "city": "Fort Worth",
+              "company_profile": "spotsource solutions llc is a global human capital management consulting firm headquartered in miami florida founded in january 2012 spotsource has created a fusion of innovative service offerings to meet the increasing demand of today s economy we specialize in talent acquisition staffing and executive search services across various functions and in specific industries global talent transfusion gtt services utilize best in practice qualification standards to deliver talent in temporary temporary to hire and permanent basis health career transition hct is a subsidiary of global talent transfusion and offers placement services specifically in the growing healthcare arena spotsource executive search ses consultants are special breed talent evangelists that understand how to advise and streamline the human resources process in the direction your organization requires for long term sustainability and success succession planning leadership development programs compensation analysis recruitment process outsourcing all customized to best suit the needs of your business we understand the demand for cost effective solutions for your organization are you seeking a potential career transition and interested in discussing the current hiring trends and open positions vital career consulting vcc offers career transitional services catered specifically for the job applicant including resume construction social media optimization and interview coaching address 4100 n powerline rd ste z3pompano beach fl 33073office phone c90b6ca89acd18d9e31ea3590b4ad76605721bc372025598fe9e1e60cf428551",
+              "len_company_profile": 1594,
+              "description": "job title itemization review managerlocation fort worth tx department itemization reviewreports to vp operations general description responsible for the overall aspects of itemization review operations personnel hiring quality control of process workflow monitoring the tracking of and accountability of staff regarding production standards and department expectations duties and responsibilities oversee company s itemization review department in its operationsresponsible for encouraging and reinforcing company culturedevelops processes to better department and implements new procedures protocols works with customer service on elevated issues and provider callsimplements and audits policy in conjunction with policy and payment integrity department monitoring quality and quality control of results for department responsible for ensuring overall metrics are in compliance with management and client expectationsresponsible for human resources matters directly related to department supervised i e interviewing hiring training annual evaluations electronic time cards and addressing personnel issues may create review daily weekly monthly reports invoices logs and expensesadditional duties responsibilities as assigned comply with all safety rules regulations in conjunction with the injury and illness prevention program iipp as well as maintain hipaa complianceoccasional interaction with customers",
+              "len_description": 1407,
+              "requirements": "qualifications rn license in the state of texasdiploma or bachelors of science in nursing requiredpast managerial experience preferred6 years experience as or nurseexperience with facility bills helpfulstrong knowledge of icd9 cptknowledge of fee schedules rules and r amp c guidelinesmust be able to remain poised in stressful situationshighly motivated self starterexceptional organizational skillsability to handle deadlines and proactively problem solveeffective and professional communication skillsability to meet or exceed performance competenciesdemonstrated outstanding leadership problem solving and analytical skillsability to think and work independently while working in an overall team environmentproficient in microsoft office suite",
+              "benefits": "full benefits offered",
+              "telecommuting": 0,
+              "has_company_logo": 1,
+              "has_questions": 1,
+              "employment_type": "Full-time",
+              "required_experience": "Mid-Senior level",
+              "required_education": "Bachelor\u0027s Degree",
+              "industry": "Hospital \u0026 Health Care",
+              "function": "Health Care Provider",
+              "fraudulent": 0,
+              "education_level": "Bachelor\u0027s Degree",
+              "median_weekly_earnings_usd": 1334
+            }
+          }
+        },
+        {
+          "name": "test #3",
+          "q": {
+            "features": {
+              "job_id": 6,
+              "title": "Accounting Clerk",
+              "location": "US, MD,",
+              "country": "US",
+              "state": "MD",
+              "len_company_profile": 0,
+              "description": "job overviewapex is an environmental consulting firm that offers stable leadership and growth and views employees as valuable resources we are seeking a self motivated multi faceted accounts payable clerk to join our team in rockville md and become an integral part of our continued success story this position entails processing high volume of invoices and working in a fast pace environment keying and verifying various types of invoices to general ledger accounts and job numbers submitted by vendors and company personnel and calculating balance due to vendor by reviewing history of prior payments made to an account candidate must be able to answer vendor and personnel inquiries via phone or email qualificationsthis position requires a high school diploma and 2 5 years of relevant work experience keen attention to detail knowledge of commonly used concepts practices and procedures within the accounting field experience with accounting software proficiency in ms office suite including advanced excel experience and a high degree of professionalism want to join a team of talented accounting professionals engineers and managers submit your resume for consideration today url f030e16ff4531e87a62857357985e3e8f1fdedb40dbfebfeb0e7e3a5ead65097 about apexapex is a customer focused company that delivers environmental health safety and engineering services to over 700 clients across the united states and abroad driven by an entrepreneurial spirit and a dedication to providing responsive cost effective solutions apex has grown rapidly since our founding in 1988 working in partnership with our public and private sector clients our team of experts provides services tailored to support each customer s unique goals and objectives by blending strong technical skills business acumen and superior customer service we are able to deliver creative solutions that deliver high quality results at low cost from commercial and industrial firms to construction petroleum and utility companies to financial institutions and government clients apex has extensive experience in a wide variety of industries our corporate professional resume includes proven capabilities in the areas of water resources remediation and restoration assessment and compliance and industrial hygiene among others ranked in the top 200 environmental firms by enr magazine ranked among the top 500 design firms by enr magazine awarded the 2011 national environmental excellence award for environmental stewardship by the national association of environmental professionals and selected as a 2010 hot firm by the zweig letter come join our award winning team apex is an entrepreneurial firm and ensuring that our senior managers are able to move unencumbered is our priority we are a successful and growing mid sized firm we re small enough that our employees still have access to our leadership and it s easy for high performers to be recognized for their contributions and advance without bureaucracy with over 30 office locations we re big enough to provide comprehensive environmental consulting and engineering services to our diverse client base and to provide resources to our employees to help in their professional development we offer incentive bonus plans and ownership opportunities for our successful managers apex companies llc is an affirmative action equal opportunity employer",
+              "len_description": 3368,
+              "telecommuting": 0,
+              "has_company_logo": 0,
+              "has_questions": 0,
+              "fraudulent": 0
+            }
+          }
+        },
+        {
+          "name": "test #4",
+          "q": {
+            "features": {
+              "job_id": 7,
+              "title": "Head of Content (m/f)",
+              "location": "DE, BE, Berlin",
+              "country": "DE",
+              "state": "BE",
+              "city": "Berlin",
+              "department": "ANDROIDPIT",
+              "salary_range": "20000-28000",
+              "company_profile": "founded in 2009 the fonpit ag rose with its international web portal androidpit to the world s largest android community every month over 18 million android and tech enthusiasts around the world log into androidpit where they know they ll find the latest and most innovative information about android and android apps in 6 different languages our business activities consist of close collaboration with many of the world s largest tech web and mobile companies in 2014 app media amended fonpit ag s brand portfolio as a one stop shop for app marketing app media delivers quality performance marketing for apps to give clients the most successful campaigns possible with custom concepts and sustainable results located in the heart of berlin we are constantly looking for highly motivated and success driven personalities to help androidpit and app media grow even further",
+              "len_company_profile": 871,
+              "description": "your responsibilities manage the english speaking editorial team and build a team of best in class editorsset up content creation schedules and ensure deadlines are adhered toresearch and write about the latest tech topics and news in relation to the android ecosystemensure that the content on the site is of a consistently high qualitybe the face and voice of url 874846adb69d98865d05ec57ce2425d9e363ef71e0c8436e59e86a136a508716",
+              "len_description": 430,
+              "requirements": "your know how university or college degree in journalism media or other communication studiesprofessional experience in relevant fields e g online editorial community management tech writing possession of contacts within key companies in the mobile industryexperience in leading amp motivating small teamspassion for the android world honed writing skills with a personal flair and willingness to share your android knowledgestrong commitment to success and a motivating and inspiring personality comfortable in a dynamic startup environmentenglish native speakerlocated in berlin or surroundings",
+              "benefits": "your benefits being part of a fast growing company in a booming industryfast decision making thanks to flat hierarchies and clear structuresfreedom to unfold your own ideas amp creativity and to take over responsibility right from the startcontinued growth in a successful international team which thrives in a familiar but professional working atmospherefree drinks table tennis lunch catering feel good management team events office dogs and more",
+              "telecommuting": 0,
+              "has_company_logo": 1,
+              "has_questions": 1,
+              "employment_type": "Full-time",
+              "required_experience": "Mid-Senior level",
+              "required_education": "Master\u0027s Degree",
+              "industry": "Online Media",
+              "function": "Management",
+              "fraudulent": 0,
+              "min_salary": 20000,
+              "education_level": "Master\u0027s Degree",
+              "median_weekly_earnings_usd": 1574
+            }
+          }
+        },
+        {
+          "name": "test #5",
+          "q": {
+            "features": {
+              "job_id": 8,
+              "title": "Lead Guest Service Specialist",
+              "location": "US, CA, San Francisco",
+              "country": "US",
+              "state": "CA",
+              "city": "San Francisco",
+              "company_profile": "airenvy s mission is to provide lucrative yet hassle free full service short term property management all around the world we combine the charm of your home with the amenities of a boutique hotel currently the short term rental property management companies are run inefficiently thus having to charge owners 40 50 of monthly revenues by using our pricing algorithm cross platform listing technology out goal is to increase your rental income by 20 or more while only charging you a 12 15 commission for providing a turnkey experience we like to think airenvy is creating a new way for people to become excited again about property management and love their property managers first use case for airenvy clients are those who want to convert their long term rental into short term rental so they can 1 earn more income while having the flexibility of staying in your own place when you want airenvy is your friend next door our customer video url e73543fde61f659ae4e25b87c34adb321c37207b4adc143cb6a99351c3ee1cb5",
+              "len_company_profile": 1010,
+              "description": "who is airenvy hey there we are seasoned entrepreneurs in the heart of san francisco s soma neighborhood we are looking for someone who embodies an entrepreneurial spirit pays strong attention to detail and wants to be a part of the next big thing this business can feel like a circus at times but we have an all star team with a one of a kind culture get a little taste of it here airenvy is the 1 technology driven property management company in a multi billion dollar industry and is revolutionizing the vacation rental space we are growing at record speed and expanding to new markets our platform allows owners to put their vacation rental on autopilot we are a proven team of startup veterans and would love for you to join the family in 2014 we were named the 1 airbnb property management company in san francisco according to the sf chronicle we have 18 supportive and resourceful investors many of whom are leaders in the technology and real estate industries the positionwanted ultimate peace keeper amp problem solverairenvy is growing faster than we can handle which is why we re looking for someone to help us scale we are seeking best in class lead guest service specialist who are passionate about delighting guests and owners you ll play a direct role in improving the customer experience scaling the business and creating powerful brand advocates responsibilitiesservice first interact with guests and owners daily listen and address inquiries via phone email and chat leadership set the precedent for writing beautiful helpful emails and getting to inbox zero be the first to answer the phone and the last to give up on an interesting escalation cross collaboration act as the eyes and ears of the airenvy business speak to bug requests new features and influence the product positively ultimate multitasker you re able to manage multiple day to day gifts at once you re able to ensure that each person in contact with airenvy has a positive experience even when facing hundreds of emails a day you proven ability to take customers from irate to delightedable to make decisions quickly high sense of urgency that spills out to other team memberspassion for delighting people thrive under pressure you re proactive in recognizing and solving issues before they ariseexcellent written and verbal communication skills you spot an error without spell checkfocused on defining and scaling the business thru playbook definition",
+              "len_description": 2439,
+              "requirements": "experience with crm software live chat and phones including one year minimum of customer serviceyou heed the call of service and understand that you must have a flexible schedule this includes being available during early mornings late evenings and weekends holidaysbe super organized and care deeply about the detailszendesk experience a bonus but not required",
+              "benefits": "competitive pay you ll be able to eat steak everyday if you choose to health insurance we have vitamins and we re all relatively healthy so hopefully you don t need this pinata parties yes we dance around with blindfolds on swing sticks why because its awesome snacks on snacks all the cooool start ups are doing it karate lessons really its just that in air ninja kicks are encouraged at all times free massages when we hit a few milestones we ll be buying a massage chair discounted gym membership get swole but not like our last employee the best benefit of all being part of an amazing team family click here for some insight as to the interview process",
+              "telecommuting": 0,
+              "has_company_logo": 1,
+              "has_questions": 1,
+              "fraudulent": 0
+            }
+          }
+        }
+      ],
+      "enrichMapping": [],
+      "healthCheckQueries": [],
+      "returnPostEnrichData": false,
+      "auditPostEnrichData": false,
+      "id": "predict_fake_job",
+      "type": "STD_PREDICTION",
+      "tags": []
+    }
+  ],
+  "authMethod": "PUBLIC",
+  "authRealm": {
+    "queryKeys": []
+  },
+  "oauth2Config": {
+    "keysFormat": "JWKS_URI",
+    "jwkUriConnectTimeout": 500,
+    "jwkUriReadTimeout": 500,
+    "jwkUriSizeLimit": 51200,
+    "disableSSLCertificatesCheck": false,
+    "scopeClaimFormat": "STRING",
+    "scopeClaimKey": "scope"
+  },
+  "deploymentMonitoring": [],
+  "typeBadges": {
+    "ML": [
+      "predict_fake_job"
+    ]
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean.angiolillo@dataiku.com"
+    },
+    "lastModifiedOn": 1690315545534,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "centileShuffle": false,
+  "centileSplits": [
+    {
+      "outputIndex": 0,
+      "share": 50
+    }
+  ],
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "defaultOutputIndex": 1,
+  "seed": 1337,
+  "randomColumns": [],
+  "centileOrders": [],
+  "rangeSetTime": false,
+  "randomSplits": [
+    {
+      "outputIndex": 0,
+      "share": 80
+    }
+  ],
+  "randomColumnsSplits": [
+    {
+      "outputIndex": 0,
+      "share": 50
+    }
+  ],
+  "computedColumns": [],
+  "writeComputedColumnsInOutput": false,
+  "mode": "RANDOM",
+  "centileTDigest": false,
+  "valueSplits": [
+    {
+      "outputIndex": 0,
+      "caseSensitive": false,
+      "value": ""
+    }
+  ],
+  "rangeSplits": [
+    {
+      "filter": {
+        "uiData": {
+          "mode": "\u0026\u0026",
+          "conditions": []
+        },
+        "distinct": false,
+        "enabled": true
+      },
+      "outputIndex": 0
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "filterSplits": [
+    {
+      "filter": {
+        "uiData": {
+          "mode": "\u0026\u0026",
+          "conditions": []
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "job_id",
+                "type": "bigint"
+              },
+              {
+                "name": "title",
+                "type": "string"
+              },
+              {
+                "name": "location",
+                "type": "string"
+              },
+              {
+                "name": "country",
+                "type": "string"
+              },
+              {
+                "name": "state",
+                "type": "string"
+              },
+              {
+                "name": "city",
+                "type": "string"
+              },
+              {
+                "name": "department",
+                "type": "string"
+              },
+              {
+                "name": "salary_range",
+                "type": "string"
+              },
+              {
+                "name": "company_profile",
+                "type": "string"
+              },
+              {
+                "name": "len_company_profile",
+                "type": "bigint"
+              },
+              {
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "name": "len_description",
+                "type": "bigint"
+              },
+              {
+                "name": "requirements",
+                "type": "string"
+              },
+              {
+                "name": "benefits",
+                "type": "string"
+              },
+              {
+                "name": "telecommuting",
+                "type": "bigint"
+              },
+              {
+                "name": "has_company_logo",
+                "type": "bigint"
+              },
+              {
+                "name": "has_questions",
+                "type": "bigint"
+              },
+              {
+                "name": "employment_type",
+                "type": "string"
+              },
+              {
+                "name": "required_experience",
+                "type": "string"
+              },
+              {
+                "name": "required_education",
+                "type": "string"
+              },
+              {
+                "name": "industry",
+                "type": "string"
+              },
+              {
+                "name": "function",
+                "type": "string"
+              },
+              {
+                "name": "fraudulent",
+                "comment": "0 - real; 1 - fake job",
+                "type": "bigint"
+              },
+              {
+                "name": "min_salary",
+                "type": "bigint"
+              },
+              {
+                "name": "education_level",
+                "type": "string"
+              },
+              {
+                "name": "median_weekly_earnings_usd",
+                "type": "bigint"
+              }
+            ]
+          }
+        },
+        "distinct": false,
+        "enabled": true
+      },
+      "outputIndex": 0
+    }
+  ]
+}

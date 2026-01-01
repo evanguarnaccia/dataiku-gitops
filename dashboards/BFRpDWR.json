@@ -1,0 +1,300 @@
+{
+  "pages": [
+    {
+      "id": "gDbLTSr",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 18,
+              "height": 21
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "summary",
+              "advancedOptions": {
+                "featureImportance": {
+                  "graphType": "absoluteFeatureImportance",
+                  "importanceDisplayMode": "globalExplanations"
+                },
+                "interactiveScoring": {
+                  "featuresOrder": [
+                    "len_company_profile",
+                    "has_company_logo",
+                    "country"
+                  ]
+                }
+              }
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "borderOptions": {
+              "color": "#CCCCCC",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "fontColor": "#000000",
+              "fontSize": 13
+            },
+            "insightId": "KTqWbnM",
+            "insightType": "saved-model_report",
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 18,
+              "width": 18,
+              "height": 21
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "bc_confusion",
+              "advancedOptions": {
+                "featureImportance": {
+                  "graphType": "absoluteFeatureImportance",
+                  "importanceDisplayMode": "globalExplanations"
+                },
+                "interactiveScoring": {
+                  "featuresOrder": [
+                    "len_company_profile",
+                    "has_company_logo",
+                    "country"
+                  ]
+                }
+              }
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "borderOptions": {
+              "color": "#CCCCCC",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "fontColor": "#000000",
+              "fontSize": 13
+            },
+            "insightId": "Z9iKQL8",
+            "insightType": "saved-model_report",
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "title": "Model Report",
+      "show": true,
+      "showTitle": false,
+      "titleAlign": "CENTER",
+      "titleFontColor": "#444444",
+      "titleFontSize": 28,
+      "enableCrossFilters": true,
+      "backgroundColor": "#FFFFFF",
+      "showFilterPanel": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      }
+    }
+  ],
+  "owner": "sean",
+  "listed": true,
+  "name": "Project dashboard",
+  "theme": {
+    "id": "__dku_dss_default_theme__",
+    "name": "DSS Default",
+    "colors": [
+      "#1f77b4",
+      "#aec7e8",
+      "#ff7f0e",
+      "#ffbb78",
+      "#2ca02c",
+      "#98df8a",
+      "#d62728",
+      "#ff9896",
+      "#9467bd",
+      "#c5b0d5",
+      "#8c564b",
+      "#c49c94",
+      "#e377c2",
+      "#f7b6d2",
+      "#7f7f7f",
+      "#c7c7c7"
+    ],
+    "themePalettes": {
+      "discrete": {
+        "id": "default_theme",
+        "name": "Theme default",
+        "category": "Built-in palettes",
+        "colors": [
+          "#1f77b4",
+          "#aec7e8",
+          "#ff7f0e",
+          "#ffbb78",
+          "#2ca02c",
+          "#98df8a",
+          "#d62728",
+          "#ff9896",
+          "#9467bd",
+          "#c5b0d5",
+          "#8c564b",
+          "#c49c94",
+          "#e377c2",
+          "#f7b6d2",
+          "#7f7f7f",
+          "#c7c7c7",
+          "#bcbd22",
+          "#dbdb8d",
+          "#17becf",
+          "#9edae5",
+          "#393b79",
+          "#5254a3",
+          "#6b6ecf",
+          "#9c9ede",
+          "#637939",
+          "#8ca252",
+          "#b5cf6b",
+          "#cedb9c",
+          "#8c6d31",
+          "#bd9e39",
+          "#e7ba52",
+          "#e7cb94",
+          "#843c39",
+          "#ad494a",
+          "#d6616b",
+          "#e7969c",
+          "#7b4173",
+          "#a55194",
+          "#ce6dbd",
+          "#de9ed6"
+        ],
+        "sample": [
+          "#1f77b4",
+          "#aec7e8",
+          "#ff7f0e",
+          "#ffbb78",
+          "#2ca02c"
+        ],
+        "isCustom": false
+      },
+      "continuous": [
+        {
+          "id": "default_theme",
+          "name": "Theme default",
+          "category": "Built-in palettes",
+          "colors": [
+            "#9999CC",
+            "#00003c"
+          ],
+          "isCustom": false
+        },
+        {
+          "id": "default_theme_rev",
+          "name": "Theme default (rev)",
+          "category": "Built-in palettes",
+          "colors": [
+            "#00003c",
+            "#9999CC"
+          ],
+          "isCustom": false
+        }
+      ],
+      "diverging": {
+        "id": "default_theme",
+        "name": "Theme default",
+        "category": "Built-in palettes",
+        "colors": [
+          "rgb(158,1,66)",
+          "rgb(213,62,79)",
+          "rgb(244,109,67)",
+          "rgb(253,174,97)",
+          "rgb(254,224,139)",
+          "rgb(255,255,191)",
+          "rgb(230,245,152)",
+          "rgb(171,221,164)",
+          "rgb(102,194,165)",
+          "rgb(50,136,189)",
+          "rgb(94,79,162)"
+        ],
+        "isCustom": false
+      }
+    },
+    "palettes": {
+      "discrete": "default_theme",
+      "continuous": "default_theme",
+      "diverging": "default_theme"
+    },
+    "generalFormatting": {
+      "fontSize": 11,
+      "fontColor": "#333333",
+      "hasBackground": false,
+      "fontFamily": "SourceSansPro"
+    },
+    "pageTitleFormatting": {
+      "fontSize": 28,
+      "fontColor": "#444444",
+      "hasBackground": false
+    },
+    "tileTitleFormatting": {
+      "fontSize": 13,
+      "fontColor": "#000000",
+      "hasBackground": false
+    },
+    "chartTitleFormatting": {
+      "fontSize": 15,
+      "fontColor": "#333333",
+      "hasBackground": false
+    },
+    "legendFormatting": {
+      "fontSize": 11,
+      "fontColor": "#333333",
+      "hasBackground": false
+    },
+    "pageTitleAlignment": "CENTER",
+    "backgroundColor": "#FFFFFF",
+    "tileSpacing": 8,
+    "tileFormatting": {
+      "borderOptions": {
+        "color": "#CCCCCC",
+        "radius": 0,
+        "size": 1
+      },
+      "backgroundOpacity": 1.0
+    },
+    "isCustomized": false,
+    "isBuiltIn": true
+  },
+  "showGrid": true,
+  "columnNumber": 36,
+  "showNavigationArrows": false,
+  "reloadWhenEventReceived": false,
+  "tileSpacing": 8,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1687364509912,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

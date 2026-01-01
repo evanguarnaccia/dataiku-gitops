@@ -1,0 +1,332 @@
+{
+  "dashboardAuthorizations": {
+    "allAuthorized": false,
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "KI6bmCmP",
+          "objectType": "SAVED_MODEL"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "job_postings_prepared_joined",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "DATAMONITORING",
+          "objectType": "SCENARIO"
+        },
+        "modes": [
+          "RUN"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "SCOREDATA",
+          "objectType": "SCENARIO"
+        },
+        "modes": [
+          "RUN"
+        ]
+      }
+    ]
+  },
+  "exposedObjects": {
+    "objects": []
+  },
+  "projectType": "REGULAR",
+  "projectAppType": "APP_TEMPLATE",
+  "hasSetupSection": false,
+  "bundleContainerSettings": {
+    "remapping": {
+      "connections": [],
+      "codeEnvs": [],
+      "containerExecs": [],
+      "enableContainerExecRemapping": false
+    },
+    "codeEnvsBehavior": {
+      "envImportSpecificationMode": "SPECIFIED",
+      "importTimeMode": "INSTALL_IF_MISS"
+    }
+  },
+  "owner": "admin",
+  "permissionsVersion": "V2",
+  "permissions": [],
+  "additionalDashboardUsers": {
+    "users": []
+  },
+  "tutorialProject": true,
+  "tutorialId": "QS_MLOPS",
+  "settings": {
+    "flowAnchorSourcesAndSinks": true,
+    "flowDisplaySettings": {
+      "zonesGraphRenderingAlgorithm": "DOT_OLDRANK",
+      "zonesGraphConnectZones": true,
+      "zonesGraphForJobs": true,
+      "respectTraversalOrder": false,
+      "zonesManualPositioning": false
+    },
+    "gitCommitMode": "AUTO",
+    "disableAutomaticTriggers": false,
+    "integrations": {
+      "integrations": []
+    },
+    "flowBuildSettings": {
+      "mergeSparkPipelines": false,
+      "pruneBeforeSparkPipelines": true,
+      "mergeSqlPipelines": false,
+      "pruneBeforeSqlPipelines": true,
+      "defaultRecipeHashPropagationBehavior": "ENABLED"
+    },
+    "sharingRequestsEnabled": "INHERIT",
+    "limitedVisibilityEnabled": "INHERIT",
+    "accessRequestsEnabled": "INHERIT",
+    "limitsSettings": {
+      "memSampleBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "shakerMemTableBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "attachmentBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "sqlNotebookResultSetBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "sqlScenarioResultSetBytes": {
+        "soft": -1,
+        "hard": -1
+      }
+    },
+    "relocationSettings": {
+      "sqlLikeRecipesInitializationMode": "RESOLVED_TABLE_REFERENCES"
+    },
+    "recipeEnginesPreferences": {
+      "forbiddenEngines": [],
+      "enginesPreferenceOrder": [],
+      "forbiddenByRecipeType": {},
+      "preferenceByRecipeType": {}
+    },
+    "codeEnvs": {
+      "python": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "r": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "julia": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      }
+    },
+    "container": {
+      "containerMode": "INHERIT"
+    },
+    "containerForVisualRecipesWorkloads": {
+      "containerMode": "INHERIT"
+    },
+    "datasetsCreationSettings": {
+      "useGlobal": true,
+      "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
+      "virtualizable": false
+    },
+    "hiveEngineCreationSettings": {
+      "useGlobal": true,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sparkEngineCreationSettings": {
+      "useGlobal": true,
+      "executionEngine": "SPARK_SUBMIT",
+      "useGlobalMetastore": false
+    },
+    "impalaEngineCreationSettings": {
+      "useGlobal": true,
+      "streamMode": true
+    },
+    "wikiSettings": {
+      "promoted": false
+    },
+    "cluster": {
+      "clusterMode": "INHERIT"
+    },
+    "k8sCluster": {
+      "clusterMode": "INHERIT"
+    },
+    "virtualWebAppBackendSettings": {
+      "mode": "INHERIT",
+      "preventOverride": false,
+      "infra": {
+        "containerSelection": {
+          "containerMode": "INHERIT"
+        },
+        "overrideGlobalK8sExposition": false,
+        "exposition": {
+          "type": "local_process",
+          "params": {}
+        },
+        "scaling": {
+          "initialReplicas": 1,
+          "progressDeadlineSeconds": 600,
+          "hpa": false,
+          "hpaTargetCPUPercent": 0,
+          "hpaTargetMemoryPercent": 0,
+          "hpaMetrics": [],
+          "hpaMinPods": 0,
+          "hpaMaxPods": 0,
+          "hpaAnnotations": []
+        },
+        "podDisruptionBudget": {
+          "enable": false,
+          "isMaxUnavailable": false,
+          "minAvailable": "50%"
+        },
+        "deploymentModifier": {
+          "config": {}
+        }
+      }
+    },
+    "dkuProperties": [],
+    "autogeneratedDocumentationEnabled": true
+  },
+  "name": "AI Collaboration Quick Start",
+  "imgPattern": 4,
+  "showInitials": false,
+  "metrics": {
+    "probes": [],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": []
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1687364509909,
+    "extendedProperties": {}
+  },
+  "description": "# Welcome to the AI Collaboration Quick Start\n\n\u003cp class\u003d\"text-center\"\u003e   \u003ca href\u003d\"https://academy.dataiku.com/ai-collaboration-quick-start\" target\u003d\"_blank\" class\u003d\"btn btn-datasets-color btn-cta-big-mod\"\u003e\u003ci class\u003d\"icon-dku-sample_project\" class\u003d\"btn-cta-big-mod-icon\" /\u003e\u0026nbsp;Go to the Course on Dataiku Academy  \u003c/a\u003e\u003c/p\u003e\n\nIn this quick start, we introduce the essential capabilities of Dataiku for collaboration on AI projects by walking through a simple use case: identifying fake job postings.",
+  "shortDesc": "Take your first steps using [Dataiku for AI collaboration](https://academy.dataiku.com/ai-collaboration-quick-start).",
+  "tags": [
+    "academy",
+    "tutorial",
+    "downloads"
+  ],
+  "customFields": {
+    "gdpr_forbid_dataset_sharing": false,
+    "gdpr_forbid_dataset_export": false,
+    "gdpr_forbid_model_creation": false,
+    "gdpr_forbid_uploaded_datasets": false
+  },
+  "checklists": {
+    "checklists": [
+      {
+        "id": "183e96",
+        "title": "AI Collaboration Todo",
+        "createdOn": 0,
+        "items": [
+          {
+            "done": false,
+            "text": "Review the Flow.",
+            "createdOn": 1690316713248,
+            "createdBy": "sean",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Use groups to collaborate securely.",
+            "createdOn": 1690316728333,
+            "createdBy": "sean",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Communicate insights with a dashboard.",
+            "createdOn": 1690316736471,
+            "createdBy": "sean",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Run a colleague\u0027s workload through a scenario.",
+            "createdOn": 1690316745285,
+            "createdBy": "sean",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Run a colleague\u0027s workload through a Dataiku application.",
+            "createdOn": 1690316753393,
+            "createdBy": "sean",
+            "stateChangedOn": 0
+          }
+        ]
+      }
+    ]
+  }
+}

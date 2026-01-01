@@ -1,0 +1,31 @@
+{
+  "type": "saved-model_report",
+  "params": {
+    "savedModelSmartId": "KI6bmCmP"
+  },
+  "owner": "sean.angiolillo@dataiku.com",
+  "listed": false,
+  "name": "Predict fraudulent (binary) table",
+  "dashboardCreationId": "BFRpDWR",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean.angiolillo@dataiku.com"
+    },
+    "lastModifiedOn": 1689605029212,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "sean.angiolillo@dataiku.com"
+    },
+    "lastModifiedOn": 1689605029212,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

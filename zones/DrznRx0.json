@@ -1,0 +1,40 @@
+{
+  "name": "Machine Learning",
+  "color": "#4B8021",
+  "items": [
+    {
+      "objectId": "test",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "train",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "train_Predict_fraudulent__binary_",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "KI6bmCmP",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "score_test",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "test_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "split_job_postings_prepared_joined",
+      "objectType": "RECIPE"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

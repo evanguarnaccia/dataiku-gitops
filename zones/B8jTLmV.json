@@ -1,0 +1,26 @@
+{
+  "name": "Generative AI",
+  "color": "#C82423",
+  "items": [
+    {
+      "objectId": "9G5MF8Bn",
+      "objectType": "MANAGED_FOLDER"
+    },
+    {
+      "objectId": "compute_jobs_sampled",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "jobs_sampled",
+      "objectType": "DATASET"
+    }
+  ],
+  "shared": [],
+  "position": {},
+  "shortDesc": " Use this Flow zone for the [Generative AI Quick Start](https://academy.dataiku.com/generative-ai-quick-start).",
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

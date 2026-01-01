@@ -1,0 +1,319 @@
+{
+  "computedColumns": [],
+  "enableAutoCastInJoinConditions": false,
+  "engineParams": {
+    "hive": {
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL",
+      "hiveconf": [],
+      "inheritConf": "default",
+      "skipPrerunValidate": false
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "executionEngine": "SPARK_SUBMIT",
+      "overwriteOutputSchema": false,
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "autoModeRepartitionInto": 10,
+        "map": {},
+        "mode": "AUTO"
+      },
+      "skipPrerunValidate": false,
+      "sparkConfig": {
+        "conf": [],
+        "inheritConf": "default"
+      },
+      "useGlobalMetastore": false
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    }
+  },
+  "joins": [
+    {
+      "conditionsMode": "AND",
+      "on": [
+        {
+          "caseInsensitive": false,
+          "column1": {
+            "name": "required_education",
+            "table": 0
+          },
+          "column2": {
+            "name": "education_level",
+            "table": 1
+          },
+          "dateDiffUnit": "SECOND",
+          "type": "EQ"
+        }
+      ],
+      "outerJoinOnTheLeft": true,
+      "table1": 0,
+      "table2": 1,
+      "type": "LEFT"
+    }
+  ],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "job_id",
+            "type": "bigint"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "location",
+            "type": "string"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "state",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "department",
+            "type": "string"
+          },
+          {
+            "name": "salary_range",
+            "type": "string"
+          },
+          {
+            "name": "company_profile",
+            "type": "string"
+          },
+          {
+            "name": "len_company_profile",
+            "type": "bigint"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "len_description",
+            "type": "bigint"
+          },
+          {
+            "name": "requirements",
+            "type": "string"
+          },
+          {
+            "name": "benefits",
+            "type": "string"
+          },
+          {
+            "name": "telecommuting",
+            "type": "bigint"
+          },
+          {
+            "name": "has_company_logo",
+            "type": "bigint"
+          },
+          {
+            "name": "has_questions",
+            "type": "bigint"
+          },
+          {
+            "name": "employment_type",
+            "type": "string"
+          },
+          {
+            "name": "required_experience",
+            "type": "string"
+          },
+          {
+            "name": "required_education",
+            "type": "string"
+          },
+          {
+            "name": "industry",
+            "type": "string"
+          },
+          {
+            "name": "function",
+            "type": "string"
+          },
+          {
+            "name": "fraudulent",
+            "type": "bigint"
+          },
+          {
+            "name": "min_salary",
+            "type": "bigint"
+          },
+          {
+            "name": "education_level",
+            "type": "string"
+          },
+          {
+            "name": "median_weekly_earnings_usd",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
+  "resolvedSelectedColumns": [],
+  "selectedColumns": [
+    {
+      "name": "job_id",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "title",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "country",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "state",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "city",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "department",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "salary_range",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "company_profile",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "len_company_profile",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "description",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "len_description",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "requirements",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "benefits",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "telecommuting",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "has_company_logo",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "has_questions",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "employment_type",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "required_experience",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "required_education",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "industry",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "function",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "fraudulent",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "education_level",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "median_weekly_earnings_usd",
+      "table": 1,
+      "type": "bigint"
+    }
+  ],
+  "virtualInputs": [
+    {
+      "index": 1,
+      "outputColumnsSelectionMode": "MANUAL"
+    },
+    {
+      "computedColumns": [],
+      "index": 0,
+      "originLabel": "earnings_by_education",
+      "outputColumnsSelectionMode": "MANUAL",
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      }
+    }
+  ]
+}
