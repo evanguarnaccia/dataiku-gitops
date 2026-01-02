@@ -66,12 +66,12 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1767391189481
+    "lastModifiedOn": 1767392029277
   },
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/earnings_by_education_prepared1",
+    "path": "${projectKey}/earnings_by_education_prepared",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

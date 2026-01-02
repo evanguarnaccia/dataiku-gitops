@@ -63,7 +63,7 @@
     "main": {
       "items": [
         {
-          "ref": "earnings_by_education_prepared2",
+          "ref": "earnings_by_education_prepared",
           "appendMode": false
         }
       ]
@@ -75,7 +75,7 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1767391312728
+    "lastModifiedOn": 1767392029284
   },
   "tags": [],
   "customFields": {},
