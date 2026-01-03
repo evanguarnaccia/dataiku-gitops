@@ -1,10 +1,10 @@
 # Dataiku Gitops Integration
 
-# OVERVIEW
+## OVERVIEW
 
 This document is a guide to configuring a typical Dataiku gitops lifecycle, in which project versions are pushed to Github repositories, and optional tests are run both before moving the project bundle to a staging area and also before deploying to the production environment. In this case, the test comprises confirming the presence of the project’s ML model(s) in Weights and Biases (W&B) before the project can be staged, and ultimately deployed. Find code files at <span class="c11"><a href="https://www.google.com/url?q=https://github.com/evanguarnaccia&amp;sa=D&amp;source=editors&amp;ust=1767464092301144&amp;usg=AOvVaw3RQk7RRx1UInA9xiSNslK6" class="c5">https://github.com/evanguarnaccia</a></span>
 
-# <span class="c1">GOALS</span>
+## <span class="c1">GOALS</span>
 
 1.  <span class="c0">Provision and configure dev, staging, and prod environments</span>
 2.  <span class="c0">Connect DSS project to remote Github repository</span>
@@ -12,7 +12,7 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 4.  <span class="c0">Configure Dataiku Github action to check W&B upon commit</span>
 5.  <span class="c0">Successfully execute tests to deploy to staging and prod</span>
 
-# <span class="c1">Milestones</span>
+## <span class="c1">Milestones</span>
 
 - <span class="c0">Configure nodes</span>
 - <span class="c0">Configure Secrets</span>
@@ -26,9 +26,9 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 - <span class="c0">Create new project branch</span>
 - <span class="c0">Test and Deploy</span>
 
-## <span class="c8">Configure Nodes</span>
+### <span class="c8">Configure Nodes</span>
 
-## <span class="c10">This pipeline will consist of three nodes, a design node for development, and automation nodes for staging and production.</span>
+<span class="c0">This pipeline will consist of three nodes, a design node for development, and automation nodes for staging and production.</span>
 
 <span class="c0">Create the needed instances in Fleet Manager</span>
 
@@ -50,7 +50,7 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 124.00px;"><img src="images/image7.png" style="width: 624.00px; height: 124.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8">Configure Secrets</span>
+### <span class="c8">Configure Secrets</span>
 
 <span class="c0">To set the secrets, for each instance, generate an API key for the user by going back to DSS and clicking on the user profile in the top right of the page. From there, click the gears, and then select the API keys. Create an API key for this purpose on the page shown below</span>
 
@@ -64,13 +64,13 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 224.00px;"><img src="images/image12.png" style="width: 624.00px; height: 224.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## Create Github repository
+### Create Github repository
 
 <span class="c0">Before a project can be pushed to Github from DSS, a blank repository must first be created. Create a bare public repository as shown below, and copy the SSH link to the repository.</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 261.33px;"><img src="images/image17.png" style="width: 624.00px; height: 261.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## Add Remote to Project
+### Add Remote to Project
 
 <span class="c0">Go to DSS and navigate to the “Version Control” tab as shown</span>
 
@@ -84,7 +84,7 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 60.00px;"><img src="images/image11.png" style="width: 624.00px; height: 60.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8">Initialize Github Repository</span>
+### <span class="c8">Initialize Github Repository</span>
 
 <span class="c0">To initialize the github repository for this project, the first step is to push the project to it. Go to the menu as shown and click “Push”. Also take note that the name of the branch is “master”.</span>
 
@@ -94,7 +94,7 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 173.33px;"><img src="images/image8.png" style="width: 624.00px; height: 173.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8">Setup Github Action</span>
+### <span class="c8">Setup Github Action</span>
 
 <span class="c0">From the screen above, click “Add file”, and give it the name “.github/workflows/pr.yml”. Populate the file with the example code as shown below. Change the branch name to “master” as noted earlier. In this case, the Github action needed to be modified, so a mirror was created of the repository containing the original Github action. Change the value on line 17 of the file below to match the mirrored repo..</span>
 
@@ -120,13 +120,13 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 74.67px;"><img src="images/image14.png" style="width: 624.00px; height: 74.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8">Create Deployment Test</span>
+### <span class="c8">Create Deployment Test</span>
 
 The Github action used in this workflow allows a user-defined test to be run, and as suggested in pr.yml and release.yml, the test is contained in a file called “<span class="c11"><a href="https://www.google.com/url?q=http://tests.py&amp;sa=D&amp;source=editors&amp;ust=1767464092307914&amp;usg=AOvVaw2xZpuo8WIjqmjfTFjGxSE1" class="c5">tests.py</a></span><span class="c0">”. Create this file and populate it with that code, as shown below</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 305.33px;"><img src="images/image32.png" style="width: 624.00px; height: 305.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8">Configure oneai plugin</span>
+### <span class="c8">Configure oneai plugin</span>
 
 <span class="c0">To push ML models directly from DSS to Weights and Biases, a custom plugin is needed. Download the oneai plugin, and go to DSS. Open the menu in the top right corner, and under “Administration & Settings”, click “Plugins”. Click “Add plugin” in the top right corner, and then upload the zip file.</span>
 
@@ -149,7 +149,7 @@ Next, make changes to <span class="c11"><a href="https://www.google.com/url?q=ht
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 350.67px;"><img src="images/image19.png" style="width: 624.00px; height: 350.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8">Push ML model to W&B</span>
+### <span class="c8">Push ML model to W&B</span>
 
 <span class="c0">Go to the project in DSS to be deployed, and click on the ML model in the flow, as shown below</span>
 
@@ -163,7 +163,7 @@ Next, make changes to <span class="c11"><a href="https://www.google.com/url?q=ht
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 254.67px;"><img src="images/image13.png" style="width: 624.00px; height: 254.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8">Create New Project Branch</span>
+### <span class="c8">Create New Project Branch</span>
 
 <span class="c0">To make a pull request to the Github repository, first create a new branch of the project before making changes to the project. Go to the “Version control” tab, and create a new branch as shown below. For simplicity, use the current project</span>
 
@@ -177,7 +177,7 @@ Next, make changes to <span class="c11"><a href="https://www.google.com/url?q=ht
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 293.33px;"><img src="images/image25.png" style="width: 624.00px; height: 293.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8">Test and Deploy</span>
+### <span class="c8">Test and Deploy</span>
 
 <span class="c0">If the previous steps have been done properly, the github repo should have an option to click “Compare & pull request”, as shown below. This click-through sets in motion the chain of events which apply the tests and deploy to staging and prod if passed.</span>
 
