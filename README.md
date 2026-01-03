@@ -1,10 +1,3 @@
-![][image1]
-
-**Evan Guarnaccia**  
-**Technical Account Manager**  
-**Dataiku**  
-1/2/26
-
 # Dataiku Gitops Integration
 
 # **OVERVIEW**
