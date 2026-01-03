@@ -1,4 +1,4 @@
-Dataiku Gitops Integration
+# Dataiku Gitops Integration
 
 # OVERVIEW
 
