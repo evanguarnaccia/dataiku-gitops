@@ -50,15 +50,11 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 124.00px;"><img src="images/image7.png" style="width: 624.00px; height: 124.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8"></span>
-
 ## <span class="c8">Configure Secrets</span>
 
 <span class="c0">To set the secrets, for each instance, generate an API key for the user by going back to DSS and clicking on the user profile in the top right of the page. From there, click the gears, and then select the API keys. Create an API key for this purpose on the page shown below</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 252.00px;"><img src="images/image10.png" style="width: 624.00px; height: 252.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-<span class="c0"></span>
 
 <span class="c0">Navigate to the “Credentials” tab, and enter the W&B account API key</span>
 
@@ -149,15 +145,9 @@ Next, make changes to <span class="c11"><a href="https://www.google.com/url?q=ht
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 213.33px;"><img src="images/image5.png" style="width: 624.00px; height: 213.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-<span class="c0"></span>
-
-<span class="c0"></span>
-
 <span class="c0">Navigate to the “Settings” tab on this page, and then to “W&B Credentials”. Create a preset as shown below.</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 350.67px;"><img src="images/image19.png" style="width: 624.00px; height: 350.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-## <span class="c8"></span>
 
 ## <span class="c8">Push ML model to W&B</span>
 
@@ -165,23 +155,9 @@ Next, make changes to <span class="c11"><a href="https://www.google.com/url?q=ht
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 249.33px;"><img src="images/image21.png" style="width: 624.00px; height: 249.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-<span class="c0"></span>
-
-<span class="c0"></span>
-
 <span class="c0">Click on “Publish model to Weights&Biases” and fill in the menu that pops up, including the preset defined earlier. Click “RUN MACRO”</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 184.00px;"><img src="images/image2.png" style="width: 624.00px; height: 184.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
 
 <span class="c0">If done properly, the ML model should be pushed successfully to W&B</span>
 
@@ -196,8 +172,6 @@ Next, make changes to <span class="c11"><a href="https://www.google.com/url?q=ht
 <span class="c0">Make the changes to the project, and navigate back to “Version control”, and this time select “Push”, as shown below</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 145.33px;"><img src="images/image20.png" style="width: 624.00px; height: 145.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-<span class="c0"></span>
 
 <span class="c0">A successful push will look similar to what is shown below</span>
 
@@ -224,16 +198,6 @@ Next, make changes to <span class="c11"><a href="https://www.google.com/url?q=ht
 <span class="c0">If successful, the output of the tests will be on the console as shown below</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 372.00px;"><img src="images/image15.png" style="width: 624.00px; height: 372.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
 
 <span class="c0">And the latest version of the project has been deployed to both staging and production.</span>
 
