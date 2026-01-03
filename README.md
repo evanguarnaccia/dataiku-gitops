@@ -1,6 +1,3 @@
-<img src="./images/media/image20.png" style="width:6.5in"
-alt="horizontal line" />
-
 **Evan Guarnaccia**
 
 **Technical Account Manager**
@@ -64,13 +61,13 @@ staged, and ultimately deployed. Find code files at
 
 Create the needed instances in Fleet Manager
 
-<img src="./images/media/image26.png"
+<img src="./images/image26.png"
 style="width:6.5in;height:2.16667in" />
 
 Go to the design node, and navigate to the big menu in the top right,
 and click on “Local Deployer”, as shown below
 
-<img src="./images/media/image33.png"
+<img src="./images/image33.png"
 style="width:6.5in;height:1.75in" />
 
 From the Local Deployer, select “Deploying Projects”, and then navigate
