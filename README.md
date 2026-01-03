@@ -1,21 +1,3 @@
-<div>
-
-<span class="c0"></span>
-
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 4.00px;"><img src="images/image36.png" title="horizontal line" style="width: 624.00px; height: 4.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-</div>
-
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 6.67px;"><img src="images/image37.png" title="horizontal line" style="width: 624.00px; height: 6.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-<span class="c8">Evan Guarnaccia</span>
-
-<span class="c8">Technical Account Manager</span>
-
-<span class="c8">Dataiku</span>
-
-<span class="c17">1/2/26</span>
-
 Dataiku Gitops Integration
 
 # OVERVIEW
@@ -56,18 +38,6 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 168.00px;"><img src="images/image33.png" style="width: 624.00px; height: 168.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
 <span class="c0">From the Local Deployer, select “Deploying Projects”, and then navigate to the “Infrastructures” tab, and click “+ New Infrastructure” and populate the fields. Make sure to use the correct “Lifecycle stage” setting for each.</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 284.00px;"><img src="images/image22.png" style="width: 624.00px; height: 284.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
@@ -94,12 +64,6 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 266.67px;"><img src="images/image18.png" style="width: 624.00px; height: 266.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
 <span class="c0">Finally, navigate to the “My Account” tab, and add a credential called “wandbcred”, and set the value as the previously used W&B account API key.</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 224.00px;"><img src="images/image12.png" style="width: 624.00px; height: 224.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
@@ -109,14 +73,6 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 <span class="c0">Before a project can be pushed to Github from DSS, a blank repository must first be created. Create a bare public repository as shown below, and copy the SSH link to the repository.</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 261.33px;"><img src="images/image17.png" style="width: 624.00px; height: 261.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-## <span class="c8"></span>
-
-## <span class="c8"></span>
-
-## <span class="c8"></span>
-
-## <span class="c8"></span>
 
 ## Add Remote to Project
 
@@ -138,8 +94,6 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 130.67px;"><img src="images/image31.png" style="width: 624.00px; height: 130.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-<span class="c0"></span>
-
 <span class="c0">If done correctly, the Github repository setup earlier should be populated with files, similar to this</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 173.33px;"><img src="images/image8.png" style="width: 624.00px; height: 173.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
@@ -150,10 +104,6 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 370.67px;"><img src="images/image28.png" style="width: 624.00px; height: 370.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-<span class="c0"></span>
-
-<span class="c0"></span>
-
 <span class="c0">Create another file in the same directory called “release.yml” and populate it with the example code and necessary modifications, as shown below. Note that there are two additional environment variables: DATAIKU_INFRA_STAGING_ID and DATAIKU_INFRA_PROD_ID. These are the infrastructure ids created earlier.</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 306.67px;"><img src="images/image23.png" style="width: 624.00px; height: 306.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
@@ -161,10 +111,6 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 <span class="c0">The next step is to set the environment variables. Click “Settings” near the top middle of the screen, click “Secrets and variables”, and then click “Actions”. Use the tabs in the page shown below to add the secrets and variables.</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 256.00px;"><img src="images/image34.png" style="width: 624.00px; height: 256.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
 
 <span class="c0">Navigate to the mirror of the Github action, and edit “dataiku_gitops_action.py” in two places. First, add the ‘-s’ option to print to the console, as shown below</span>
 
@@ -178,18 +124,6 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 74.67px;"><img src="images/image14.png" style="width: 624.00px; height: 74.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-## <span class="c8"></span>
-
-## <span class="c8"></span>
-
-## <span class="c8"></span>
-
-## <span class="c8"></span>
-
-## <span class="c8"></span>
-
-## <span class="c8"></span>
-
 ## <span class="c8">Create Deployment Test</span>
 
 The Github action used in this workflow allows a user-defined test to be run, and as suggested in pr.yml and release.yml, the test is contained in a file called “<span class="c11"><a href="https://www.google.com/url?q=http://tests.py&amp;sa=D&amp;source=editors&amp;ust=1767464092307914&amp;usg=AOvVaw2xZpuo8WIjqmjfTFjGxSE1" class="c5">tests.py</a></span><span class="c0">”. Create this file and populate it with that code, as shown below</span>
@@ -202,14 +136,6 @@ The Github action used in this workflow allows a user-defined test to be run, an
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 116.00px;"><img src="images/image30.png" style="width: 624.00px; height: 116.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
 
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
 <span class="c0">Once the plugin in installed, it should be available as shown below</span>
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 108.00px;"><img src="images/image24.png" style="width: 624.00px; height: 108.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
@@ -218,16 +144,6 @@ Click on “<span class="c11"><a href="https://www.google.com/url?q=http://one.a
 
 Navigate to the “Edit” tab and make changes to runnable.json as shown below. This will allow the plugin user to set the parameters for pushing the ML model to W&B  
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 373.33px;"><img src="images/image26.png" style="width: 624.00px; height: 373.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" /></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
-
-<span class="c0"></span>
 
 Next, make changes to <span class="c11"><a href="https://www.google.com/url?q=http://runnable.py&amp;sa=D&amp;source=editors&amp;ust=1767464092309288&amp;usg=AOvVaw0bdZ_kE-pBexnBr0mm7DV9" class="c5">runnable.py</a></span><span class="c0"> so that the parameters are passed to the code which is talking to W&B, as shown below. Make sure the rest of the code is properly referencing those new variables.</span>
 
