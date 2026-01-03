@@ -39,7 +39,7 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 Create the needed instances in Fleet Manager
 
-![][images/image2]
+![](images/image2)
 
 Go to the design node, and navigate to the big menu in the top right, and click on “Local Deployer”, as shown below
 
