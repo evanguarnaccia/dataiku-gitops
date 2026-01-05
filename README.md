@@ -28,7 +28,7 @@ This document is a guide to configuring a typical Dataiku gitops lifecycle, in w
 
 ### <span class="c8">Configure Nodes</span>
 
-<span class="c0">This pipeline will consist of three nodes, a design node for development, and automation nodes for staging and production.</span>
+<span class="c0">This pipeline will consist of three nodes: a design node for development, and automation nodes for staging and production.</span>
 
 <span class="c0">Create the needed instances in Fleet Manager</span>
 
