@@ -2,7 +2,7 @@
 
 ## OVERVIEW
 
-This document is a guide to configuring a typical Dataiku gitops lifecycle, in which project versions are pushed to Github repositories, and optional tests are run both before moving the project bundle to a staging area and also before deploying to the production environment. In this case, the test comprises confirming the presence of the project’s ML model(s) in Weights and Biases (W&B) before the project can be staged, and ultimately deployed. Find code files at here and at <span class="c11"><a href="https://github.com/evanguarnaccia/dataiku-gitops-github-action-eg" class="c5">https://github.com/evanguarnaccia</a></span>
+This document is a guide to configuring a typical Dataiku gitops lifecycle, in which project versions are pushed to Github repositories, and optional tests are run both before moving the project bundle to a staging area and also before deploying to the production environment. In this case, the test comprises confirming the presence of the project’s ML model(s) in Weights and Biases (W&B) before the project can be staged, and ultimately deployed. Find code files at here and at <span class="c11"><a href="https://github.com/evanguarnaccia/dataiku-gitops-github-action-eg" class="c5">https://github.com/evanguarnaccia/dataiku-gitops-github-action-eg</a></span>
 
 ## <span class="c1">GOALS</span>
 
