@@ -11,18 +11,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "train_Predict_fraudulent__binary_",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "KI6bmCmP",
-      "objectType": "SAVED_MODEL"
-    },
-    {
-      "objectId": "score_test",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "test_scored",
       "objectType": "DATASET"
     },
@@ -32,6 +20,7 @@
     }
   ],
   "shared": [],
+  "position": {},
   "tags": [],
   "customFields": {},
   "checklists": {
