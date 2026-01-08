@@ -26,4 +26,5 @@ jobs:
           dataiku_instance_prod_url: ${{ vars.DATAIKU_INSTANCE_PROD_URL }}
           dataiku_project_key: ${{ vars.DATAIKU_PROJECT_KEY }}
           client_certificate: ${{ secrets.CLIENT_CERTIFICATE }}
+          deploy_without_test: ${{ vars.DEPLOY_WITHOUT_TEST }}
           run_tests_only: "false"
